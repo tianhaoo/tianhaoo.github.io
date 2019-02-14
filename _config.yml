@@ -102,5 +102,8 @@ friends: [
     },{
         title: "fleschier",
         href: "https://fleschier.github.io/"
+    },{
+        title: "CBIR",
+        href: "https://cbir.tianhaoo.xyz/"
     }
 ]
