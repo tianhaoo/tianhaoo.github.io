@@ -140,11 +140,11 @@ net.ipv4.tcp_congestion_control = bbr
 ```
 代表bbr开启成功
 
-## 报错
+# 报错
 
 根据报错的提示信息定位到`openssl.py`文件里面有个函数`libcrypto.EVP_CIPHER_CTX_cleanup.argtypes`已经弃用，将他改成`libcrypto.EVP_CIPHER_CTX_reset.argtypes`就行了，一共有两处。
 
-
+此外，ssserver有时候会用着用着突然挂掉，这时候可以试一下重启EC2或者重建一个EC2实例也即换一个公网IP。
 
 
 
