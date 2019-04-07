@@ -4,7 +4,7 @@ title:      使用githubpage和Hexo搭建个人博客
 subtitle:    "\"Hello World, Hello Blog\""
 date:       2017-02-04
 author:     tianhaoo
-header-img: img/1.jpg
+header-img: post-bg/img/1.jpg
 catalog: true
 tags:
   - 博客

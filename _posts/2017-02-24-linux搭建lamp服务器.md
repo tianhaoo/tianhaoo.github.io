@@ -4,7 +4,7 @@ title:      linux搭建lamp服务器
 subtitle:    ""
 date:       2017-02-24
 author:     tianhaoo
-header-img: img/11.jpg
+header-img: post-bg/img/3.jpg
 catalog: true
 tags:
   - web
