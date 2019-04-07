@@ -1,9 +1,9 @@
 {
-    "name": "tianhaoo-blog",
-    "title": "Tianhaoo Blog",
-    "author": "Tianhaoo <360726539@qq.com>",
+    "name": "by-blog",
+    "title": "BY Blog",
+    "author": "BY <qiubaiyingios@163.com>",
     "version": "1.7.0",
-    "homepage": "http://tianhaoo.github.io",
+    "homepage": "http://qiubaiying.github.io",
     "repository": {
         "type": "git",
         "url": "https://github.com/qiubaiying/qiubaiying.github.io"
