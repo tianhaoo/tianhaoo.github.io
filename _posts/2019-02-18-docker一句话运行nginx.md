@@ -4,7 +4,7 @@ title:      docker一句话运行nginx
 subtitle:    ""
 date:       2019-02-18
 author:     tianhaoo
-header-img: post-bg/img/23.jpg
+header-img: img/post-bg/23.jpg
 catalog: true
 tags:
   - docker

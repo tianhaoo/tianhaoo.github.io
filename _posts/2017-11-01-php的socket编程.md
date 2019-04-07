@@ -4,7 +4,7 @@ title:      php的socket编程
 subtitle:    ""
 date:       2017-11-01
 author:     tianhaoo
-header-img: post-bg/img/4.jpg
+header-img: img/post-bg/4.jpg
 catalog: true
 tags:
   - php

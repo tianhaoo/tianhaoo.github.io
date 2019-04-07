@@ -4,7 +4,7 @@ title:      laradock部署laravel应用
 subtitle:    "部署环境为腾讯云服务器"
 date:       2018-02-01
 author:     tianhaoo
-header-img: post-bg/img/10.jpg
+header-img: img/post-bg/10.jpg
 catalog: true
 tags:
   - laravel

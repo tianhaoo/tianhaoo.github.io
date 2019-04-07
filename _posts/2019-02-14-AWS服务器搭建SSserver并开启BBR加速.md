@@ -4,7 +4,7 @@ title:      AWS服务器搭建SSserver并开启BBR加速
 subtitle:    ""
 date:       2019-02-14
 author:     tianhaoo
-header-img: post-bg/img/22.jpg
+header-img: img/post-bg/22.jpg
 catalog: true
 tags:
   - 翻墙
