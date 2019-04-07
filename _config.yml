@@ -97,13 +97,16 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "JiYi",
-        href: "http://jiyiren.github.io/"
+        title: "Tianhaoo's Site",
+        href: "http://120.79.74.49/"
     },{
         title: "fleschier",
         href: "https://fleschier.github.io/"
     },{
-        title: "CBIR",
-        href: "https://cbir.tianhaoo.xyz/"
+        title: "jiyiren",
+        href: "http://jiyiren.github.io/"
+    },{
+        title: "Shuming",
+        href: "https://shuming9886.github.io"
     }
 ]
