@@ -43,48 +43,48 @@ AHK的全称是AutoHotkey，是一个开源的用在windows上面的脚本语言
 
 1. 使用scrcpy连接手机
 
-```
-.\scrcpy.exe
-```
+  ```
+  .\scrcpy.exe
+  ```
 
 2. 编写ahk脚本
 
-```ahk
-#MaxHotkeysPerInterval 100
- 
-w::
-; MouseClickDrag, left, 343, 783, 344, 663
-SendEvent {Click 343, 783, down}{click 344, 663 down}
-KeyWait, w
-SendEvent {click 344, 663 up}
-MouseMove, 343, 783
-return 
+  ```ahk
+  #MaxHotkeysPerInterval 100
+  
+  w::
+  ; MouseClickDrag, left, 343, 783, 344, 663
+  SendEvent {Click 343, 783, down}{click 344, 663 down}
+  KeyWait, w
+  SendEvent {click 344, 663 up}
+  MouseMove, 343, 783
+  return 
 
 
-a::
-; MouseClickDrag, left, 343, 783, 221, 784
-SendEvent {Click 343, 783, down}{click 221, 784 down}
-KeyWait, a
-SendEvent {click 221, 784 down}
-MouseMove, 343, 783
-return
+  a::
+  ; MouseClickDrag, left, 343, 783, 221, 784
+  SendEvent {Click 343, 783, down}{click 221, 784 down}
+  KeyWait, a
+  SendEvent {click 221, 784 down}
+  MouseMove, 343, 783
+  return
 
-s::
-; MouseClickDrag, left, 343, 783, 344, 905
-SendEvent {Click 343, 783, down}{click 344, 905 down}
-KeyWait, s
-SendEvent {click 344, 905 down}
-MouseMove, 343, 783
-return 
+  s::
+  ; MouseClickDrag, left, 343, 783, 344, 905
+  SendEvent {Click 343, 783, down}{click 344, 905 down}
+  KeyWait, s
+  SendEvent {click 344, 905 down}
+  MouseMove, 343, 783
+  return 
 
-d::
-; MouseClickDrag, left, 343, 783, 465, 783
-SendEvent {Click 343, 783, down}{click 465, 783 down}
-KeyWait, d
-SendEvent {click 465, 783 down}
-MouseMove, 465, 78re
-return 
-```
+  d::
+  ; MouseClickDrag, left, 343, 783, 465, 783
+  SendEvent {Click 343, 783, down}{click 465, 783 down}
+  KeyWait, d
+  SendEvent {click 465, 783 down}
+  MouseMove, 465, 78re
+  return 
+  ```
 
 3. 启动ahk脚本
 
@@ -95,5 +95,13 @@ return
 
 ![](/img/20190423/raw.gif)
 
-## 
+界面看起来卡顿是因为录屏的gif压缩后导致的，实际运行中非常流畅，就和手机上操作一样流畅。
 
+但是目前的ahk脚本只将wasd的移动完成了映射，还需要完善一些功能才能真正的吃鸡，但是本实验已经验证了可行性，后面的工作应该不难，留给有兴趣的读者完成。
+
+（由于要考研只能放弃吃鸡。。。。
+
+
+## 结语
+
+ahk是个功能强大的脚本语言，需要一段时间的研究才能熟练掌握，本方法主要就是编写大量的ahk脚本来完成键鼠到手机触摸屏的映射，然后通过投屏传给手机，所有的计算、与腾讯的服务器通信等工作都是由手机完成，因此很难察觉用这种方法进行作弊的玩家，要想预防这种方法需要增加app对投屏功能的检测。
