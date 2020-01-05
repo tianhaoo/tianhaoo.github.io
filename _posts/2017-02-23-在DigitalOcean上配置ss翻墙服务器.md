@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      使用ss配置翻墙服务器
+title:      在DigitalOcean上配置ss翻墙服务器
 subtitle:    "使用github学生优惠最低只要5元一年"
 date:       2017-02-23
 author:     tianhaoo
