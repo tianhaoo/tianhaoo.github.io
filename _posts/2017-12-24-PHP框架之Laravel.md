@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      laravel学习笔记
-subtitle:    "一个流行的web框架"
+title:      PHP框架之Laravel
+subtitle:    "一个流行，好用的web框架"
 date:       2017-12-24
 author:     tianhaoo
 header-img: img/post-bg/7.jpg
