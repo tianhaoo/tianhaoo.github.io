@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      laradock部署laravel应用
-subtitle:    "部署环境为腾讯云服务器"
+title:      Laravel+Docker=Laradock
+subtitle:    "在腾讯云服务器上使用Docker部署Laravel应用"
 date:       2018-02-01
 author:     tianhaoo
 header-img: img/post-bg/10.jpg
