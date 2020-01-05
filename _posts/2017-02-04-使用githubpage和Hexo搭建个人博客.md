@@ -7,7 +7,7 @@ author:     tianhaoo
 header-img: img/post-bg/1.jpg
 catalog: true
 tags:
-  - 博客
+  - 日常
 ---
 
 本文将会介绍这篇博客的搭建过程
