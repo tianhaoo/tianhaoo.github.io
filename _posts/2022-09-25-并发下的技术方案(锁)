@@ -1,0 +1,16 @@
+---
+layout:     post
+title:      并发下的技术方案(锁)
+subtitle:   ""
+date:       2022-09-25
+author:     tianhaoo
+header-img: img/post-bg/60.jpg
+catalog: true
+tags:
+  - Linux
+  - C\C++
+---
+
+## 背景
+
+阿斯蒂芬
