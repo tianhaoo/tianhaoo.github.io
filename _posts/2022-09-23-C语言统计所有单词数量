@@ -19,3 +19,66 @@ tags:
 
 
 
+## 代码
+
+```C
+#include <stdio.h>
+#include <unistd.h>
+
+
+int isSplit(char c){
+    if(
+            c == ' ' ||
+            c == '\n' ||
+            c == '\t' ||
+            c == '\"' ||
+            c == '\'' ||
+            c == ',' ||
+            c == '.' ||
+            c == '+' ||
+            c == ';'
+    ) return 0;
+
+    return 1;
+}
+
+int doCount(char *filename){
+    int count=0;
+    FILE *fp = fopen(filename, "r");
+    if (fp==NULL) return -1;
+
+    int pre=1; // 1代表分割符，0代表单词
+    char c;
+    while((c = fgetc(fp)) != EOF){
+        int cur = isSplit(c);
+        if(cur==0 && pre == 1){
+            count ++;
+        }
+        pre = cur;
+    }
+    return count;
+
+}
+
+int main(int argc, char *argv[]) {
+    // argc 记录参数个数
+    // argv 是一个字符数组的数组，实际上也是一个字符数组的指针
+    // argv[]是argc个参数，其中第0个参数是程序的全名，从第1个参数开始就是用户输入的全部参数
+    printf("Hello, World!\n");
+
+    printf("%s\n", argv[1]);
+
+    char *buffer;
+    if((buffer = getcwd(NULL,0))==NULL){
+        perror("getcwd error");
+    }
+    else{
+        printf("%s\n",buffer);
+    }
+
+
+    printf("word count: %d\n", doCount(argv[1]));
+    return 0;
+}
+
+```
